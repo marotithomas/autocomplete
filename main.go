@@ -355,7 +355,7 @@ func demoHandler(w http.ResponseWriter, r *http.Request) {
 </style>
 </head>
 <body>
-<h1>Buddha's Autocomplete Demo</h1>
+<h1>Leon's Autocomplete Demo</h1>
 <input type="text" id="autocomplete" placeholder="Kezdj el gépelni egy települést...">
 <button id="validateBtn">Validáció</button>
 <ul id="suggestions"></ul>
