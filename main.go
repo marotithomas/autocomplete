@@ -437,7 +437,7 @@ func main() {
     OpenSearchPort = mustGetenv("OPENSEARCH_PORT")
     OpenSearchUser = mustGetenv("OPENSEARCH_USER")
     OpenSearchPassword = mustGetenv("OPENSEARCH_PASSWORD")
-    OpenSearchURL = fmt.Sprintf("http://%s:%s", OpenSearchHost, OpenSearchPort)
+    OpenSearchURL = fmt.Sprintf("https://%s:%s", OpenSearchHost, OpenSearchPort)
 
     http.HandleFunc("/api/autocomplete", autocompleteHandler)
     http.HandleFunc("/api/checkMapping", mappingCheckHandler)
